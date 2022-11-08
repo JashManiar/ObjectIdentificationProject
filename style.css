@@ -31,3 +31,22 @@ body{
     color: rgb(104, 9, 237);
     box-shadow: 5px 5px 5px rgb(232, 106, 248);
 }
+
+.copy_right_footer
+{
+ 
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(253,103,49,1) 75%, rgba(253,109,51,1) 77%, rgba(253,121,54,1) 81%, rgba(253,133,57,1) 85%, rgba(252,176,69,1) 100%);
+}
+
+.copy_right_footer{
+    text-align: center;
+    width: 100%;
+    line-height: 3;
+    bottom: 0;
+    background-color: grey;
+    color: white;
+    position: fixed;
+    font-weight: bold;
+    font-size: 20px;
+}
