@@ -1,0 +1,33 @@
+.header{
+    color: black;
+    font-size: 35px;
+    box-shadow: 5px 5px 5px rgb(248, 106, 106);
+    width: 500px;
+    height: 65px;
+}
+.header:hover{
+    width: 500px;
+    box-shadow: 5px 5px 5px rgb(163, 248, 106);
+}
+body{
+    background-size: cover;
+    background-position: center;
+
+}
+
+.link {
+    font-size: 30px;
+    background: white;
+    border-radius: 10px;
+    width: 300px;
+    margin-top: 15px;
+    box-shadow: 5px 5px 5px rgb(106, 201, 248);
+}
+
+.link:hover {
+    font-size: 45px;
+    text-decoration:dotted;
+    background:linear-gradient(yellow,coral);
+    color: rgb(104, 9, 237);
+    box-shadow: 5px 5px 5px rgb(232, 106, 248);
+}
