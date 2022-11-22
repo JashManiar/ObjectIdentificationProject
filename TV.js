@@ -35,10 +35,10 @@ function draw(){
 
             fill("#fc0303");
             percent = floor(objects[i].confidence * 100);
-            text(objects[i].label + " " + percent + "%",objects[i].x - 180, objects[i].y - 200);
+            text(objects[i].label + " " + percent + "%",objects[i].x + 5, objects[i].y + 15);
             noFill();
             stroke("#fc0303");
-            rect(objects[i].x - 180, objects[i].y - 200, objects[i].width - 2693, objects[i].height - 1750);
+            rect(objects[i].x, objects[i].y, objects[i].width, objects[i].height);
         }
     }
 }

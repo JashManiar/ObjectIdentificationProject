@@ -3,7 +3,7 @@ fan_image = "";
 objects = [];
 
 function preload(){
-    fan_image = loadImage("Fan.jpg");
+    fan_image = loadImage("fan.jpg");
 }
 
 function setup(){
@@ -35,10 +35,10 @@ function draw(){
 
             fill("#fc0303");
             percent = floor(objects[i].confidence * 100);
-            text(objects[i].label + " " + percent + "%",objects[i].x - 14, objects[i].y - 175);
+            text(objects[i].label + " " + percent + "%",objects[i].x + 5, objects[i].y + 15);
             noFill();
             stroke("#fc0303");
-            rect(objects[i].x - 14, objects[i].y - 175, objects[i].width - 2326, objects[i].height - 2850);
+            rect(objects[i].x, objects[i].y, objects[i].width, objects[i].height);
         }
     }
 }
